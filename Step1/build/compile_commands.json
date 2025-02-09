@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/nik/Coding/cmake-3.31.5-tutorial-source/Step1/build",
+  "command": "/usr/bin/c++  -I/home/nik/Coding/cmake-3.31.5-tutorial-source/Step1/build -std=gnu++11 -o CMakeFiles/Tutorial.dir/tutorial.cxx.o -c /home/nik/Coding/cmake-3.31.5-tutorial-source/Step1/tutorial.cxx",
+  "file": "/home/nik/Coding/cmake-3.31.5-tutorial-source/Step1/tutorial.cxx",
+  "output": "CMakeFiles/Tutorial.dir/tutorial.cxx.o"
+}
+]
