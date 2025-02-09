@@ -1,5 +1,6 @@
 # TODO 1: Set the minimum required version of CMake to be 3.10
 cmake_minimum_required(VERSION 3.10)
+set(EXPORT_COMPILE_COMMANDS True)
 
 # TODO 2: Create a project named Tutorial
 project(Tutorial VERSION 1.0)
@@ -13,7 +14,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # TODO 8: Use configure_file to configure and copy TutorialConfig.h.in to
 #         TutorialConfig.h
-option(Tutorial_VERSION_MAJOR "Enable version number" ON)
+# option(Tutorial_VERSION_MAJOR "Enable version number" ON)
 configure_file(TutorialConfig.h.in TutorialConfig.h)
 
 # TODO 3: Add an executable called Tutorial to the project
