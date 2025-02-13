@@ -32,6 +32,7 @@ target_link_libraries(Tutorial PUBLIC MathFunctions tutorial_compiler_flags)
 # so that we will find TutorialConfig.h
 target_include_directories(Tutorial PUBLIC
                            "${PROJECT_BINARY_DIR}"
+                           ${CMAKE_CURRENT_SOURCE_DIR}/../bin
                            )
 
 # TODO 3: Install Tutorial in the bin directory
